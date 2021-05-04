@@ -1,14 +1,15 @@
 import React from 'react';
+import './header.css';
 
 const Header = () => {
-    return (
-      <ul>
-        <li><a href="#1">Главная</a></li>
-        <li><a href="#2">Сообщения</a></li>
-        <li><a href="#3">Новости</a></li>
-        <li><a href="#4">Друзья</a></li>
-      </ul>
-    )
+  return (
+    <ul className="menu__list">
+      <li>Главная</li>
+      <li>Сообщения</li>
+      <li>Новости</li>
+      <li>Друзья</li>
+    </ul>
+  )
 }
-
+<img src="scale_1200.jfif" alt="" className="img" />
 export default Header;

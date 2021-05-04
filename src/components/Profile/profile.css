@@ -1,0 +1,28 @@
+.profile__card {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+
+position: absolute;
+width: 615px;
+height: 372px;
+right: 981px;
+top: 47px;
+
+/* White */
+
+background: #FFFFFF;
+border: 0.5px solid #4A4AED;
+box-sizing: border-box;
+box-shadow: 8px 8px 16px 4px rgba(137, 143, 150, 0.04);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

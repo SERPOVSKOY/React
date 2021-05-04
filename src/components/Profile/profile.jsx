@@ -1,8 +1,13 @@
 import React from 'react';
+import './profile.css';
 
 const Profile = () => {
     return (
-        <span>123</span>
+        <div className="profile__card">
+            <img src="man.png" alt="" className="image" />
+            Иван Иванов
+        </div>
+
     )
 };
 

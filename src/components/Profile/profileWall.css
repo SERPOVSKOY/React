@@ -1,0 +1,20 @@
+.profile__wall {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+
+position: absolute;
+width: 1550px;
+height: 490px;
+right: 47px;
+top: 466px;
+
+/* White */
+
+background: #FFFFFF;
+border: 0.5px solid #3A3AA9;
+box-sizing: border-box;
+box-shadow: 8px 8px 16px 4px rgba(137, 143, 150, 0.04);
+border-radius: 20px;
+}
