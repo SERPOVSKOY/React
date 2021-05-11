@@ -1,0 +1,27 @@
+.sidebar {
+    height: 100%;
+    width: 350px;
+    background: #fff;
+    border: .5px solid #E7E9F0;
+    box-shadow: 8px 8px 16px rgba(137, 143, 150, 0.04);
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    transition: .3s;
+    padding: 10px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #2196F3;
+    background: #E3F2FD;
+    border-radius: 4px;
+}

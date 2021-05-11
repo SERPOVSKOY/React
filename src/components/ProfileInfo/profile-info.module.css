@@ -1,0 +1,12 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    height: 372px;
+    flex: 1;
+    margin-left: 20px;
+    background: #FFFFFF;
+    border: 0.5px solid #EBEBF9;
+    box-shadow: 8px 8px 16px 4px rgba(137, 143, 150, 0.04);
+    border-radius: 20px;
+}

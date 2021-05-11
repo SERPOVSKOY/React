@@ -1,21 +1,23 @@
 import React from 'react';
-import Header from './components/Header/header.jsx';
-import Profile from './components/Profile/profile.jsx';
-import ProfileInfo from './components/Profile/profileInfo.jsx';
-import ProfileWall from './components/Profile/profileWall.jsx';
+import Sidebar from './components/Sidebar/Sidebar.jsx';
+import ProfileCard from './components/ProfileCard/ProfileCard.jsx';
+import ProfileInfo from './components/ProfileInfo/ProfileInfo.jsx';
+import ProfileWall from './components/ProfileWall/ProfileWall.jsx';
 import './App.css';
-
 
 const App = () => {
   return (
-    <div className="main">
-      <Header />
-      <Profile />
-      <ProfileInfo />
-      <ProfileWall />
-    </div>
-  )
-}
+    <>
+      <Sidebar />
+      <div className="main">
+        <div className="profile__main">
+          <ProfileCard />
+          <ProfileInfo />
+        </div>
+        <ProfileWall />
+      </div>
+    </>
+  );
+};
 
 export default App;
-

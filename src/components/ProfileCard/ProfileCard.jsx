@@ -1,9 +1,9 @@
 import React from 'react';
-import './profile.css';
+import s from './profile-card.module.css';
 
-const Profile = () => {
+const ProfileCard = () => {
     return (
-        <div className="profile__card">
+        <div className={s.card} >
             <img src="man.png" alt="" className="image" />
             Иван Иванов
         </div>
@@ -11,4 +11,4 @@ const Profile = () => {
     )
 };
 
-export default Profile;
+export default ProfileCard;
