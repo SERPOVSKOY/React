@@ -2,6 +2,7 @@ import React from 'react';
 import s from './sidebar.module.css';
 
 const Sidebar = () => {
+
   return (
     <div className={s.sidebar}>
       <ul className={s.menu}>
