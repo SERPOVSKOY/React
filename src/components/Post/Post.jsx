@@ -4,6 +4,9 @@ import avatar from './avatar.jpg'
 
 const Post = (props) => {
 
+import avatar from './avatar.jpg';
+
+const Post = (props) => {
     return (
         <div>
             <img src={avatar} alt="avatar" className={s.avatar} />
@@ -14,3 +17,6 @@ const Post = (props) => {
 };
 
 export default Post;
+
+export default Post;
+
