@@ -1,9 +1,5 @@
 import React from 'react';
 import s from './post.module.css';
-import avatar from './avatar.jpg'
-
-const Post = (props) => {
-
 import avatar from './avatar.jpg';
 
 const Post = (props) => {
@@ -17,6 +13,3 @@ const Post = (props) => {
 };
 
 export default Post;
-
-export default Post;
-

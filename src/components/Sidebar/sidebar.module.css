@@ -9,19 +9,29 @@
 
 .menu {
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.menu li {
+.menu a {
     transition: .3s;
     padding: 10px;
     color: #000;
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.menu li:hover {
+.menu a:hover {
     color: #2196F3;
+    background: #E3F2FD;
+    border-radius: 4px;
+}
+
+
+.menu a.sidebarActiveLink {
+    color: #2152f3;
     background: #E3F2FD;
     border-radius: 4px;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './profile-info.module.css';
 
-const ProfileInfo = (propss) => {
-    console.log(propss);
+const ProfileInfo = (props) => {
+
     return (
     <div className={s.info}>
         <p className={s.joj}>Иван Иванов</p>
